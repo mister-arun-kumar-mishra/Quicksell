@@ -1,0 +1,122 @@
+.kanban-board {
+    background-color: #bcbcbc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .kanban-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .display-button {
+    background-color: #eeeeee;
+    color: black;
+    padding: 10px 20px;
+    border: solid #999999;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute; /* Add this line */
+    top: 20px; /* Add this line */
+    left: 20px; /* Add this line */
+  }
+  .display-options {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    background-color: #f3f6f4;
+    border: 1px solid #bcbcbc;
+  }
+  
+  .dropdowns {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    background-color: #bcbcbc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .column-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background-color:#f3f6f4;
+    padding: 10px;
+    margin: 10px 10px;
+  }
+  .card-content-main {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 20px;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-header p {
+    margin-right: 10px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-avatar {
+    /* Add your avatar styles here */
+    align-self: flex-end; /* Position on the right side */
+    margin-left: 10px; /* Add margin to separate from content */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f3f6f4;
+    text-transform: uppercase;
+  }
+  
+  .user-avatar.green {
+    background-color: green;
+  }
+  
+  .user-avatar.blue {
+    background-color: blue;
+  }
+  
